@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0"
+           xmlns:ext="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.0.0">
+
+    <camelContext trace="true" xmlns="http://camel.apache.org/schema/blueprint">
+        <routeBuilder ref="routeByCurrency"/>
+        <routeBuilder ref="routeByFileName"/>
+    </camelContext>
+    
+    <bean id="routeByCurrency" class="com.fusesource.camel.exercises.cbr.RouteByCurrencyRouter">
+        <property name="sourceDirectory" value="/camel-exercises/cbr/xml/in"/>
+        <property name="sinkDirectory" value="/camel-exercises/cbr/xml/out"/>
+        <property name="createDirectories" value="true"/>
+    </bean>
+
+    <bean id="routeByFileName" class="com.fusesource.camel.exercises.cbr.RouteByFileNameRouter">
+        <property name="sourceDirectory" value="/camel-exercises/cbr/csv/in"/>
+        <property name="sinkDirectory" value="/camel-exercises/cbr/csv/out"/>
+        <property name="createDirectories" value="true"/>
+    </bean>
+
+</blueprint>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.fusesource.training</groupId>
+        <artifactId>exercises</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fusesource.training.exercises</groupId>
+    <artifactId>camel</artifactId>
+    <version>1.0</version>
+    <name>FuseSource :: Training :: Exercises :: Camel</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>camel-cbr</module>
+    </modules>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <!-- build the OSGi bundle -->
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>${maven-bundle-plugin-version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <manifestLocation>./target/META-INF</manifestLocation>
+                        <Export-Package>com.fusesource.camel.exercises.cbr*</Export-Package>
+                        <!-- we must set the version for org.slf4j explicitly, to match that used in ServiceMix -->
+                        <Import-Package>
+                            org.slf4j;version=${slf4j.version},
+                            *
+                        </Import-Package>
+                        <Include-Resource>src/main/resources</Include-Resource>
+                    </instructions>
+                </configuration>
+            </plugin>
+            <!-- enable maven command 'mvn camel:run' -->
+            <plugin>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-maven-plugin</artifactId>
+                <version>${camel-version}</version>
+                <configuration>
+                    <!--  the spring context file must be separate from the OSGi bundle, so we provide one here -->
+                    <fileApplicationContextUri>src/test/resources/spring-camel-context.xml</fileApplicationContextUri>
+                </configuration>
+            </plugin>
+            <!-- generate a unit testing report -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin-version}</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <sample.directory.path>${pom.build.sourceDirectory}/../../test/resources/camel/in/xml</sample.directory.path>
+                    </systemPropertyVariables>
+                    <includes>
+                        <include>**/*Test.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

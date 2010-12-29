@@ -1,0 +1,290 @@
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+<thead>
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+<td width=169 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;page-break-after:avoid'>File</p>
+</td>
+
+<td width=216 valign=top style='width:215.65pt;border:solid windowtext 1.0pt;
+border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Note</p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border:solid windowtext 1.0pt;
+border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'>Check</p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:1;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:1 !msorm'>
+
+<td width=169 rowspan=2 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border:solid windowtext 1.0pt !msorm;
+border-top:none !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-alt:solid windowtext .5pt !msorm;padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'><span style='font-family:"Courier New";mso-bidi-font-family:
+"Courier New"'>pom.xml<o:p></o:p></span></p>
+</td>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Look at each of the dependencies in the <span
+style='font-family:"Courier New";mso-bidi-font-family:"Courier New"'>&lt;dependencies&gt;</span>
+section. Do you understand why each is required? </p>
+</td>
+
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:2;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:2 !msorm'>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Examine the configuration instructions for the <span
+style='font-family:"Courier New";mso-bidi-font-family:"Courier New"'>maven-bundle-plugin</span>.
+Do you understand how the OSGi bundle is being created?</p>
+
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:3;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:3 !msorm'>
+<td width=169 rowspan=2 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border:solid windowtext 1.0pt !msorm;
+border-top:none !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-alt:solid windowtext .5pt !msorm;padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'><span style='font-family:"Courier New";mso-bidi-font-family:
+"Courier New"'>RouteByCurrencyRouter.java<o:p></o:p></span></p>
+
+</td>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Examine the router; do you understand the flow of
+control? </p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+
+<tr style='mso-yfti-irow:4;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:4 !msorm'>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Why are the <span style='font-family:"Courier New";
+mso-bidi-font-family:"Courier New"'>InitializingBean</span> and <span
+style='font-family:"Courier New";mso-bidi-font-family:"Courier New"'>DisposableBean</span>
+interfaces implemented?</p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:5;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:5 !msorm'>
+<td width=169 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border:solid windowtext 1.0pt !msorm;
+border-top:none !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-alt:solid windowtext .5pt !msorm;padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'><span style='font-family:"Courier New";mso-bidi-font-family:
+"Courier New"'>RouteByFileNameRouter.java<o:p></o:p></span></p>
+</td>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Examine the router; do you understand the flow of
+control?</p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:6;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:6 !msorm'>
+<td width=169 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border:solid windowtext 1.0pt !msorm;
+border-top:none !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-alt:solid windowtext .5pt !msorm;padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'><span style='font-family:"Courier New";mso-bidi-font-family:
+"Courier New"'>bundle-context.xml<o:p></o:p></span></p>
+</td>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Do you understand how each route is being
+initialized?</p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+
+</td>
+</tr>
+<tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes;mso-prop-change:"Adrian Trenaman" 20090330T1916'
+style='mso-yfti-irow:7 !msorm;mso-yfti-lastrow:yes !msorm'>
+<td width=169 valign=top style='width:169.25pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border:solid windowtext 1.0pt !msorm;
+border-top:none !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-alt:solid windowtext .5pt !msorm;padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'><span style='font-family:"Courier New";mso-bidi-font-family:
+"Courier New"'>camelContext.xml<o:p></o:p></span></p>
+</td>
+<td width=216 valign=top style='width:215.65pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together;
+page-break-after:avoid'>Note how this file simply includes the <span
+style='font-family:"Courier New";mso-bidi-font-family:"Courier New"'>bundle-context.xml</span>
+
+file. This is to allow the <span style='font-family:"Courier New";
+mso-bidi-font-family:"Courier New"'>camel:run</span> plugin to re-use Spring
+configuration while running outside of an OSGi container.</p>
+</td>
+<td width=58 valign=top style='width:57.9pt;border-top:none;border-left:
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;border-top:
+none !msorm;border-left:none !msorm;border-bottom:solid windowtext 1.0pt !msorm;
+border-right:solid windowtext 1.0pt !msorm;mso-border-top-alt:solid windowtext .5pt !msorm;
+mso-border-left-alt:solid windowtext .5pt !msorm;mso-border-alt:solid windowtext .5pt !msorm;
+padding:0cm 5.4pt 0cm 5.4pt !msorm'>
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:
+widow-orphan lines-together;page-break-after:avoid'><span style='font-family:
+Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>ð</span></span></p>
+</td>
+</tr>
+
+</thead>
+</table>
+
+
