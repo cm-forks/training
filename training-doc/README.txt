@@ -54,9 +54,6 @@ File
 
 
 
-
-
-
 12/20/2010 -:- 04:08:46 PM] <charlesmoulliard> Where is define the syntax that we can use in xxx.page or .md ? I don't see a link on the scalate fusesource about that
 [12/20/2010 -:- 04:10:06 PM] <jstrachan> markdown is defined here: http://daringfireball.net/projects/markdown/syntax
 [12/20/2010 -:- 04:10:16 PM] <chirino> http://daringfireball.net/projects/markdown/syntax
