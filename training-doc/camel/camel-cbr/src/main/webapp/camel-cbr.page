@@ -19,22 +19,48 @@ title: Content Based Router
     ## 3.1 Review of Solution
     The files for this exercise are located in the directory camel-exercises-cbr/. Before beginning the exercise, locate and open each of the files in the table below and preview the file as instructed.
 
-    {pigmentize:: text}
-    hghdghdgff dchgdhcgdhc
-    <xml>dfdfdf</xml>
-    {pigmentize}
-
-    this is a test
-
-.table.clients
-  tr
-    th Language
-    th Libraries
-  tr
-    td hello
-    td boy
-
   :markdown
+    <p></p>
+    <table width="590" border="2" cellspacing="0">
+    <tr valign="top">
+      <td bgcolor="#F3F3F3"><font size="3" face="Times New Roman">File</font></td>
+      <td bgcolor="#F3F3F3"><font size="3" face="Arial">Note</font></td>
+      <td bgcolor="#F3F3F3"><font size="3" face="Times New Roman">Check</font></td></tr>
+    <tr valign="top"><td rowspan="2"><font size="3" face="Courier New">pom.xml</font></td>
+      <td><font size="3" face="Arial">Look at each of the dependencies in
+      the &lt;dependencies&gt; section. Do you understand why each is required? </font>
+
+      </td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    <tr valign="top"><td><font size="3" face="Arial">Examine the configuration
+      instructions for the maven-bundle-plugin. Do you understand how the
+      OSGi bundle is being created?</font></td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    <tr valign="top"><td rowspan="2"><font size="3" face="Courier New">RouteByCurrencyRouter.java</font></td>
+      <td><font size="3" face="Arial">Examine the router; do you understand
+      the flow of control? </font></td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+
+    <tr valign="top"><td><font size="3" face="Arial">Why are the InitializingBean
+      and DisposableBean interfaces implemented?</font></td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    <tr valign="top"><td><font size="3" face="Courier New">RouteByFileNameRouter.java</font></td>
+      <td><font size="3" face="Arial">Examine the router; do you understand
+      the flow of control?</font></td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    <tr valign="top"><td><font size="3" face="Courier New">bundle-context.xml</font></td>
+      <td><font size="3" face="Arial">Do you understand how each route is
+      being initialized?</font></td>
+
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    <tr valign="top"><td><font size="3" face="Courier New">camelContext.xml</font></td>
+      <td><font size="3" face="Arial">Note how this file simply includes the
+      bundle-context.xml file. This is to allow the camel:run plugin to re-use
+      Spring configuration while running outside of an OSGi container.</font></td>
+      <td><font size="3" face="Symbol">ð</font></td></tr>
+    </table>
+
+
     ## 3.2	Building and Running the Solution
     To build the solution use 'mvn install'; to run the solution from the command-line, use 'mvn camel:run'.
 

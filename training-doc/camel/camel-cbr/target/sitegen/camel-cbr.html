@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd"> 
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  Architecture
+-->
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="FuseSource Training Camel Material" name="description"/>
+    <meta content="FuseSource,Training,Camel,Material" name="keywords"/>
+    <meta content="FuseSource Training Camel" name="author"/>
+    <link type="text/css" rel="stylesheet" href="styles/impact/css/pygmentize.css"/>
+    <link type="text/css" rel="stylesheet" href="styles/impact/css/site.css"/>
+    <title></title>
+  </head>
+  <body>
+    <div id="overview">
+      <div class="wrapper">
+        <div class="logo">
+          <img src="images/header_logo.png" alt="FuseSource Training Camel logo"/>
+<p></p>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="wrapper">
+<div class="body">
+  <h1 id = "Table_of_Content">Table of Content</h1>
+
+  <p>
+    <div class="toc">
+    <ul style="list-style:none;">
+        <li><a href="#Table_of_Content">Table of Content</a></li>
+        <li><a href="#3__Content_Based_Router">3. Content Based Router</a></li>
+        <li><ul style="list-style:none;">
+        <li><a href="#3_1_Review_of_Solution">3.1 Review of Solution</a></li>
+        </ul></li>
+    </ul>
+    </div>
+   </p>
+
+  <h1 id = "3__Content_Based_Router">3. Content Based Router</h1>
+
+  <p>In this exercise, we will build and deploy some content-based routers. The first router uses an XPath query to perform routing decisions on XML payload. The second router uses a header � containing the name of the file that initiates the route � to perform routing.</p>
+
+  <p><img src="images/camel-cbr.png" width="500" height="300"/></p>
+
+  <h2 id = "3_1_Review_of_Solution">3.1 Review of Solution</h2>
+
+  <p>The files for this exercise are located in the directory camel-exercises-cbr/. Before beginning the exercise, locate and open each of the files in the table below and preview the file as instructed.</p>
+  <p></p>
+
+  <table width="590" border="2" cellspacing="0">
+  <tr valign="top">
+    <td bgcolor="#F3F3F3"><font size="3" face="Times New Roman">File</font></td>
+    <td bgcolor="#F3F3F3"><font size="3" face="Arial">Note</font></td>
+    <td bgcolor="#F3F3F3"><font size="3" face="Times New Roman">Check</font></td></tr>
+  <tr valign="top"><td rowspan="2"><font size="3" face="Courier New">pom.xml</font></td>
+    <td><font size="3" face="Arial">Look at each of the dependencies in
+    the &lt;dependencies&gt; section. Do you understand why each is required? </font>
+
+    </td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  <tr valign="top"><td><font size="3" face="Arial">Examine the configuration
+    instructions for the maven-bundle-plugin. Do you understand how the
+    OSGi bundle is being created?</font></td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  <tr valign="top"><td rowspan="2"><font size="3" face="Courier New">RouteByCurrencyRouter.java</font></td>
+    <td><font size="3" face="Arial">Examine the router; do you understand
+    the flow of control? </font></td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+
+  <tr valign="top"><td><font size="3" face="Arial">Why are the InitializingBean
+    and DisposableBean interfaces implemented?</font></td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  <tr valign="top"><td><font size="3" face="Courier New">RouteByFileNameRouter.java</font></td>
+    <td><font size="3" face="Arial">Examine the router; do you understand
+    the flow of control?</font></td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  <tr valign="top"><td><font size="3" face="Courier New">bundle-context.xml</font></td>
+    <td><font size="3" face="Arial">Do you understand how each route is
+    being initialized?</font></td>
+
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  <tr valign="top"><td><font size="3" face="Courier New">camelContext.xml</font></td>
+    <td><font size="3" face="Arial">Note how this file simply includes the
+    bundle-context.xml file. This is to allow the camel:run plugin to re-use
+    Spring configuration while running outside of an OSGi container.</font></td>
+    <td><font size="3" face="Symbol">?</font></td></tr>
+  </table>
+
+  <h2 id = "3_2____Building_and_Running_the_Solution">3.2    Building and Running the Solution</h2>
+
+  <p>To build the solution use 'mvn install'; to run the solution from the command-line, use 'mvn camel:run'.</p>
+
+  <h2 id = "3_3____Optional:_Deploying_the_Solution_in_Servicemix_4">3.3    Optional: Deploying the Solution in Servicemix 4</h2>
+
+  <p>To deploy the solution into Servicemix 4, install the 'camel-exercises-cbr' feature from the ServiceMix shell if you installed the entire exercise feature beforehand. Otherwise follow the readme.txt file.</p>
+
+  <pre><code>karaf@root&gt; features:install camel-exercises-cbr</code></pre>
+
+  <h2 id = "3_4____Validating_the_Solution">3.4    Validating the Solution</h2>
+
+  <p>The validation here is for the deployment inside Servicemix 4 but it works the same way when started with but then you don�t need to copy any files and the output directory would be inside ./target/test-classes/camel/out directory.
+  The XPath router listens on the directory /camel-exercises/cbr/xml/in for XML files. Copy a sample file from the ./target/test-classes/camel/in/xml directory into /camel-exercises/cbr/xml/in. It should �disappear� after a short interval, and be processed by the route and new files should appear in /camel-exercises/cbr/xml/out after a few seconds.</p>
+
+  <p>The header-based router listens on the directory /camel-exercises/cbr/csv/in. Copy a sample file from the ./target/test-classes/camel/in/csv directory. Again, it should 'disappear' after a short interval, and be processed by the route and new files should appear in /camel-exercises/cbr/csv/out after a few seconds.</p>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

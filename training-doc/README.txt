@@ -25,6 +25,36 @@ To pigmentize the text,run the following command :
 /usr/local/bin/pygmentize -f html -o index.html index.page
 
 
+Prince
+******
+prince camel-cbr.html -o camel-cbr.pdf
+
+
+************ Training material location *********
+List of docs to be printed
+
+1) Training ActiveMq
+
+Directory
+\\train-bos.bedford.progress.com\Courses\_1_Progress\FUSE_Message_Broker\06\Printshop
+
+File
+5303-06-Apache-ActiveMQ-Exercisebook.pdf
+5303-06-Dev-Apache-ActiveMQ-Slidebook.pdf
+
+
+2) Training ServiceMix / Camel
+
+\\train-bos.bedford.progress.com\Courses\_1_Progress\FUSE_ESB_4_Camel\03\Printshop
+
+File
+5310-03-Dev-Apache-ServiceMix4-with-Camel-Slidebook.pdf
+5310-03-Dev-Apache-ServiceMix4-with-Camel-Exercisebook.pdf
+
+
+
+
+
 
 
 12/20/2010 -:- 04:08:46 PM] <charlesmoulliard> Where is define the syntax that we can use in xxx.page or .md ? I don't see a link on the scalate fusesource about that
