@@ -10,13 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.fusesource.training.documentation</groupId>
-    <artifactId>camel</artifactId>
+    <artifactId>camel-doc</artifactId>
     <version>1.0</version>
     <name>FuseSource :: Training :: Documentation :: Camel</name>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
-    <modules>
-        <module>camel-cbr</module>
-    </modules>
 
 </project>
