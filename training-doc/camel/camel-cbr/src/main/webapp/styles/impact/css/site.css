@@ -171,10 +171,13 @@ pre code {
 
 
 table.clients td {
-
   border:1px solid #DDDDDD;
   padding:10px;
-  
+}
+
+table.clients th {
+  border:1px solid #DDDDDD;
+  padding:10px;
 }
 
 table.clients td p { margin:0px; }
