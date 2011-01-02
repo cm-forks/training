@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/training-doc/camel/camel (1) (com.fusesource.training.documentation).iml" filepath="$PROJECT_DIR$/training-doc/camel/camel (1) (com.fusesource.training.documentation).iml" />
       <module fileurl="file://$PROJECT_DIR$/training-exercises/camel/camel (2) (com.fusesource.training.exercises).iml" filepath="$PROJECT_DIR$/training-exercises/camel/camel (2) (com.fusesource.training.exercises).iml" />
       <module fileurl="file://$PROJECT_DIR$/training-exercises/camel/camel-cbr/camel-cbr.iml" filepath="$PROJECT_DIR$/training-exercises/camel/camel-cbr/camel-cbr.iml" />
-      <module fileurl="file://$PROJECT_DIR$/training-doc/camel/camel-cbr/camel-cbr-doc.iml" filepath="$PROJECT_DIR$/training-doc/camel/camel-cbr/camel-cbr-doc.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-doc/documentation.iml" filepath="$PROJECT_DIR$/training-doc/documentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-exercises/exercises.iml" filepath="$PROJECT_DIR$/training-exercises/exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-parent/parent.iml" filepath="$PROJECT_DIR$/training-parent/parent.iml" />
